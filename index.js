@@ -8,8 +8,22 @@ function whisper(string) {
 .toLowerCase()
 }
 
+var uppercase = "HELLO!"
+
+uppercase.toUpperCase() === uppercase
+
+var lowercase = 'hello!'
+
+lowercase.toLowerCase() === lowercase
+
+var mixedCase = 'Hi there!'
+
+mixedCase.toLowerCase() === mixedCase
+
+mixedCase.toUpperCase() === mixedCase
+
 function logShout(string) {
-  console.log('HELLO')
+  console.log()
   .toUpperCase
 }
 
