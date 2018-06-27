@@ -24,20 +24,19 @@ mixedCase.toUpperCase() === mixedCase
 
 function logShout(string) {
   console.log(string.toUpperCase())
-.toUpperCase
 }
 
 
 function logWhisper(string) {
-  console.log() ;string
-.toLowerCase
+  console.log(string.toLowerCase())
 }
     
 function sayHiToGrandma(string) {
-  if ((string)===uppercase) {
+  if (string.toUpperCase() === string) {
     return 'YES INDEED!'
   }
-  else if ((string)===lowercase) {
+  
+  if (string.toLowerCase()===lowercase) {
     return "I can\'t hear you!"
   }
   else if ((string)==="I love you, Grandma.") {
